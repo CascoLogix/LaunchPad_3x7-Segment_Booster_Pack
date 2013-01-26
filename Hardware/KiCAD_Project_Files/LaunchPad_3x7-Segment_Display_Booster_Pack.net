@@ -1,0 +1,201 @@
+# EESchema Netlist Version 1.1 created  11/6/2011 10:20:22 PM
+(
+ ( /4EB729BE SM0603 C1 10uF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /4EB7298E SIL-10 P1 CONN_10
+  ( 1 VCC )
+  ( 2 /SEG_A )
+  ( 3 /SEG_B )
+  ( 4 /SEG_C )
+  ( 5 /SEG_D )
+  ( 6 /SEG_E )
+  ( 7 /SEG_F )
+  ( 8 N-000036 )
+  ( 9 N-000034 )
+  ( 10 N-000033 )
+ )
+ ( /4EB7298A SIL-10 P2 CONN_10
+  ( 1 GND )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 /SEG_DP )
+  ( 7 /SEG_G )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 N-000030 )
+ )
+ ( /4EB729AA SM0603 R1 1k
+  ( 1 N-000035 )
+  ( 2 N-000036 )
+ )
+ ( /4EB74039 SM0603 R2 1k
+  ( 1 N-000008 )
+  ( 2 N-000034 )
+ )
+ ( /4EB7404B SM0603 R3 1k
+  ( 1 N-000032 )
+  ( 2 N-000033 )
+ )
+ ( /4EB7404E SM0603 R4 1k
+  ( 1 N-000030 )
+  ( 2 N-000031 )
+ )
+ ( /4EB74195 SM0603 R5 100
+  ( 1 N-000014 )
+  ( 2 /SEG_A )
+ )
+ ( /4EB74194 SM0603 R6 100
+  ( 1 N-000024 )
+  ( 2 /SEG_B )
+ )
+ ( /4EB74193 SM0603 R7 100
+  ( 1 N-000026 )
+  ( 2 /SEG_C )
+ )
+ ( /4EB74192 SM0603 R8 100
+  ( 1 N-000028 )
+  ( 2 /SEG_D )
+ )
+ ( /4EB741A4 SM0603 R9 100
+  ( 1 N-000011 )
+  ( 2 /SEG_E )
+ )
+ ( /4EB741A5 SM0603 R10 100
+  ( 1 N-000020 )
+  ( 2 /SEG_F )
+ )
+ ( /4EB741A6 SM0603 R11 100
+  ( 1 N-000018 )
+  ( 2 /SEG_G )
+ )
+ ( /4EB741A7 SM0603 R12 100
+  ( 1 N-000016 )
+  ( 2 /SEG_DP )
+ )
+ ( /4EB75819 SSOP14 U1 74LS125
+  ( 1 GND )
+  ( 2 N-000035 )
+  ( 3 N-000010 )
+  ( 4 GND )
+  ( 5 N-000008 )
+  ( 6 N-000012 )
+  ( 7 GND )
+  ( 8 N-000013 )
+  ( 9 N-000032 )
+  ( 10 GND )
+  ( 11 N-000015 )
+  ( 12 N-000031 )
+  ( 13 GND )
+  ( 14 VCC )
+ )
+ ( /4EB7295F LTC4624JF U2 LTC4624JF
+  ( 1 N-000010 )
+  ( 2 N-000011 )
+  ( 3 N-000026 )
+  ( 4 N-000028 )
+  ( 5 N-000012 )
+  ( 6 N-000016 )
+  ( 7 N-000013 )
+  ( 8 N-000018 )
+  ( 11 N-000024 )
+  ( 12 N-000014 )
+  ( 14 N-000015 )
+  ( 15 N-000020 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ CP*
+ SM*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
